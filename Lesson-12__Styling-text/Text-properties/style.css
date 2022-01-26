@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-  
+html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 
@@ -19,7 +17,7 @@ p {
 }
 
 b {
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
 
