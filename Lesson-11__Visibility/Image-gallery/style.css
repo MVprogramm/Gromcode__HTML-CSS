@@ -5,6 +5,8 @@ body {
 .gallery {
   display: flex;
 
+  overflow: hidden;
+
   cursor: all-scroll;
 }
 
