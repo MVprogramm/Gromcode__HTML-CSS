@@ -6,7 +6,7 @@
   display: inline-block;
   position: relative;
   
-  height: 50px;
+  height: 48px;
 
   background-color: darkgreen;
   opacity: 0.8;
@@ -29,7 +29,7 @@
 .menu-list {
   display: none;
   position: absolute;
-  top: 50px;
+  top: 48px;
   left: 0;
 
   min-width: 120px;
