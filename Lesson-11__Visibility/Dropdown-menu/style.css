@@ -23,7 +23,7 @@
   padding: 16px;
 }
 
-.dropdown:hover {
+.menu-button:hover {
   opacity: 1;
   
   cursor: pointer;
