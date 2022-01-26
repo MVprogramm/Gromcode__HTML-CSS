@@ -30,7 +30,7 @@
   top: 50px;
   left: 0;
 
-  min-width: 120px;
+  width: 120px;
   
   list-style-type: none;
   background-color: lightcyan;
@@ -44,7 +44,6 @@
 }
 
 .menu-item {
-  box-sizing: border-box;
   padding: 16px;
 }
 
