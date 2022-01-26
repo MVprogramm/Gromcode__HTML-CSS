@@ -1,0 +1,17 @@
+body {
+  overflow-x: hidden;
+}
+
+.gallery {
+  display: flex;
+
+  cursor: all-scroll;
+}
+
+.gallery:hover {
+  overflow-x: auto;
+}
+
+.thumb {
+  margin: 8px;
+}
