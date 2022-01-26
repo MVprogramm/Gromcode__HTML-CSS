@@ -3,14 +3,7 @@
 }
 
 .dropdown {
-  display: inline-block;
   position: relative;
-  
-  background-color: darkgreen;
-  opacity: 0.8;
-
-  height: 50px;
-    
   
   margin: 16px;
 }
@@ -19,8 +12,12 @@
   display: inline-block;
   
   font-size: 16px;
-  color: white; 
+  color: white;
 
+  background-color: darkgreen;
+  opacity: 0.8;
+
+  height: 50px;
   padding: 16px;
 }
 
