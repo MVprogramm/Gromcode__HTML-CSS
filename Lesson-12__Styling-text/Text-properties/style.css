@@ -1,6 +1,9 @@
 * {
+  box-sizing: border-box;
+  
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+
   margin: 32px;
 }
 
@@ -16,7 +19,7 @@ p {
 }
 
 b {
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 3px;
   font-size: 24px;
 
