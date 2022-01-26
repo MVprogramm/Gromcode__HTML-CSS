@@ -5,23 +5,23 @@
 .dropdown {
   display: inline-block;
   position: relative;
-
+  
   background-color: darkgreen;
   opacity: 0.8;
 
   height: 50px;
-
-  font-size: 16px;
-  color: white;
     
-  padding: 16px;
+  
   margin: 16px;
 }
 
 .menu-button {
- 
-
+  display: inline-block;
   
+  font-size: 16px;
+  color: white; 
+
+  padding: 16px;
 }
 
 .dropdown:hover {
