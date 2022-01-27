@@ -58,6 +58,7 @@
   margin-top: 20px;
 }
 
-#userName {
+#email,
+#password {
   border: 3px solid red;
 }
