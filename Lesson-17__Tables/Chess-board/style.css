@@ -9,7 +9,7 @@ td {
   height: 50px;
   width: 50px;
 
-  line-height: 48px;
+  /*line-height: 48px; */
   text-align: center;
 
   box-sizing: border-box;
@@ -29,11 +29,11 @@ tr:nth-child(n + 2) > td:last-child {
 
 tr:last-child > td {
   border: none;
-  line-height: 0;
+  /*line-height: 0; */
 }
 
 tr:first-child > td {
-  line-height: 0;
+  /*line-height: 0; */
 }
 
 tr:nth-child(odd) > td:nth-child(even) {
