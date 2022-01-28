@@ -1,0 +1,16 @@
+table {
+  width: 500px;
+
+  border-collapse: collapse;
+
+  margin: 16px;
+}
+
+th, tr, td {
+  text-align: right;
+
+  padding: 4px;
+
+  border: 1px solid black;
+  
+}
