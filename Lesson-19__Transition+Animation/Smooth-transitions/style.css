@@ -19,6 +19,7 @@
   transition: width 2s, opacity 0.5s;
 
   margin-bottom: 16px;
+  margin-left: -16px;
 }
 
 .rect:hover {
