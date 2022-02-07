@@ -64,6 +64,11 @@
     flex-basis: 66.6666vw;
   }
 
+  .section {
+    justify-content: center;
+    align-items: center;
+  }
+
   .navigation {
     flex-basis: 33.3333vw;
   }
@@ -74,5 +79,9 @@
 
   .news {
     flex-basis: 33.3333vw;
+  }
+
+  .title {
+    margin: 0;
   }
 }
