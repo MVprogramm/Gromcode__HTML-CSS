@@ -42,7 +42,6 @@ body {
 }
 
 .nav-list-item {
-  font-size: 2em;
   color: #fff;
 
   background-color: #808080;
@@ -51,6 +50,7 @@ body {
 
   padding: 0 0.5em;
 
+  line-height: 2em;
   overflow: hidden;
   white-space: pre;
   text-overflow: ellipsis;
@@ -58,6 +58,7 @@ body {
 
 .nav-list-link {
   color: #fff;
+  
   text-decoration: none;
 }
 
