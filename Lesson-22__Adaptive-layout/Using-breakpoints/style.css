@@ -61,27 +61,18 @@
   .header {
     flex-direction: row;
 
-    flex-basis: 66.6666vw;
-  }
-
-  .section {
-    justify-content: center;
-    align-items: center;
+    flex-basis: calc(100vw * 2 / 3);
   }
 
   .navigation {
-    flex-basis: 33.3333vw;
+    flex-basis: calc(100vw / 3);
   }
 
   .products-list {
-    flex-basis: 33.3333vw;
+    flex-basis: calc(100vw / 3);
   }
 
   .news {
-    flex-basis: 33.3333vw;
-  }
-
-  .title {
-    margin: 0;
+    flex-basis: calc(100vw / 3);
   }
 }
