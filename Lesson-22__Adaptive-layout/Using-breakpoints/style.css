@@ -61,18 +61,18 @@
   .header {
     flex-direction: row;
 
-    flex-basis: 66.66vw;
+    flex-basis: 66.6666vw;
   }
 
   .navigation {
-    flex-basis: 33.33vw;
+    flex-basis: 33.3333vw;
   }
 
   .products-list {
-    flex-basis: 33.33vw;
+    flex-basis: 33.3333vw;
   }
 
   .news {
-    flex-basis: 33.33vw;
+    flex-basis: 33.3333vw;
   }
 }
