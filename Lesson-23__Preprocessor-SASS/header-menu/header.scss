@@ -21,6 +21,10 @@
     line-height: $unit;
 
     padding: 0 8px;
+
+    &_active {
+      color: $menu-txt-hover;
+    }
   
     &:hover {
       color: $menu-txt-hover;
