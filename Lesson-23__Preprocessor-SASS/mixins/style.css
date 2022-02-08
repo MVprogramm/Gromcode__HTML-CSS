@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (orientation: landscape) {
+  .container {
+    flex-direction: row;
+  }
+}
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: #ff7f50;
+  margin: 8px;
+}
+@media (min-width: 600px) {
+  .square {
+    background-color: #8a2be2;
+  }
+}
+@media (min-width: 900px) {
+  .square {
+    background-color: #aa6611;
+  }
+}
+@media (min-width: 1200px) {
+  .square {
+    background-color: #cc4477;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

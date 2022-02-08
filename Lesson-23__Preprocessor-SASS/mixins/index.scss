@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'breakpoints';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+@media (orientation: landscape) {
+    .container {
+      flex-direction: row;
+    }
+  }
+
+.square {
+  height: $square-size;
+  width: $square-size;
+
+  background-color: $bc-sm;
+
+  margin: $square-margin;
+
+  @include media-breakpoints($md) {
+    background-color: $bc-md;
+  }
+
+  @include media-breakpoints($lg) {
+    background-color: $bc-lg;
+  }
+
+  @include media-breakpoints($bg) {
+    background-color: $bc-bg;
+  }
+  
+}
